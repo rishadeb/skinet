@@ -44,6 +44,7 @@ namespace API
             if (env.IsDevelopment())
             {
                 app.UseSwagger();
+                app.UserSwaggerDocumentation();
             }
 
             app.UseStatusCodePagesWithReExecute("/errors/{0}");
